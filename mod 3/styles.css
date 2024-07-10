@@ -1,0 +1,37 @@
+body{
+  margin:0;
+  box-sizing: border-box;
+}
+.navbar-brand h1{
+  color:white;
+  float:left;
+  font-size: 40px;
+  height:60px;
+}
+.navbar{
+  background-color: rgb(0, 0, 0) !important;
+  border-radius: 0;
+}
+.nav-link{
+  color: aliceblue;
+}
+.nav-link:hover{
+  color: aquamarine;
+}
+.navbar-toggler{
+  border:2px;
+  background-color: aliceblue;
+}
+#container
+{
+  margin: top 70px;
+  color:black;
+  background-color: gainsboro;
+}
+#main{
+  padding:20px;
+}
+#main h1{
+  text-align: center;
+}
+
