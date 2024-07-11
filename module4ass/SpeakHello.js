@@ -1,4 +1,4 @@
-(function(window){
+(function(){
     var speakWord = "hello";
     let hellospeaker = {
         speak: function(names) {
