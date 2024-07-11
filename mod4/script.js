@@ -1,6 +1,6 @@
 (function(window){
     var speakWord = "hello";
-    var hellospeaker = {
+    let hellospeaker = {
         speak: function(names) {
             console.log(speakWord + " " + names);
         }
@@ -11,15 +11,13 @@
 
 (function(window){
     var speakWord = "Good Bye";
-    var byespeaker = {
+    let byespeaker = {
         speak: function(names) {
             console.log(speakWord + " " + names);
         }
     };
     window.byespeaker = byespeaker;
 })(window);
-
-
 
 (function(){
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
